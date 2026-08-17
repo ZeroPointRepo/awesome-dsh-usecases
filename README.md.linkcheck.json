@@ -1,0 +1,421 @@
+[
+ {
+  "u": "http://127.0.0.1:3080`",
+  "kind": "web",
+  "status": "FETCH-FAIL",
+  "err": "Failed to parse URL from http://127.0.0.1:3080`"
+ },
+ {
+  "u": "https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://img.shields.io/badge/use%20cases-23-2563eb",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://img.shields.io/badge/dsh-developer%20preview-a855f7",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-dsh-usecases",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/bowenliang123/dsh-context",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "bowenliang123/dsh-context",
+  "now": "bowenliang123/dsh-context",
+  "stars": 173,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://awesome.re/badge.svg",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/deepseek-ai/deepseek-harness",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "deepseek-ai/deepseek-harness",
+  "now": "deepseek-ai/deepseek-harness",
+  "stars": 143842,
+  "pushed": "2026-08-13",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/bowenliang123",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/Anionex/dsh-vision-toolkit",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "Anionex/dsh-vision-toolkit",
+  "now": "Anionex/dsh-vision-toolkit",
+  "stars": 585,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/Anionex",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/liustack/modlens",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "liustack/modlens",
+  "now": "liustack/modlens",
+  "stars": 2652,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/ysr666/dsh-vision-router",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "ysr666/dsh-vision-router",
+  "now": "ysr666/dsh-vision-router",
+  "stars": 557,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://awesome.re",
+  "kind": "web",
+  "status": "ok",
+  "final": "https://github.com/sindresorhus/awesome"
+ },
+ {
+  "u": "https://github.com/ysr666",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/mnemon-dev/mnemon",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "mnemon-dev/mnemon",
+  "now": "mnemon-dev/mnemon",
+  "stars": 466,
+  "pushed": "2026-08-16",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/liustack",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/syncable-dev/memtrace-public",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "syncable-dev/memtrace-public",
+  "now": "syncable-dev/memtrace-public",
+  "stars": 452,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/csyangwen/dsh-memory-evolve",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "csyangwen/dsh-memory-evolve",
+  "now": "csyangwen/dsh-memory-evolve",
+  "stars": 142,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/mnemon-dev",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/csyangwen",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/syncable-dev",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/tt-a1i/archify",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "tt-a1i/archify",
+  "now": "tt-a1i/archify",
+  "stars": 13704,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/NanmiCoder/dsh-agent-teams",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "NanmiCoder/dsh-agent-teams",
+  "now": "NanmiCoder/dsh-agent-teams",
+  "stars": 468,
+  "pushed": "2026-08-16",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/agentrq/agentrq",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "agentrq/agentrq",
+  "now": "agentrq/agentrq",
+  "stars": 1076,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/tt-a1i",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/agentrq",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/NanmiCoder",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/sandbaseai/sandbase-harness",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "sandbaseai/sandbase-harness",
+  "now": "sandbaseai/sandbase-harness",
+  "stars": 612,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/zhu1090093659/dsh-web-ui",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "zhu1090093659/dsh-web-ui",
+  "now": "zhu1090093659/dsh-web-ui",
+  "stars": 3894,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/zhu1090093659",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/omdsh-dev/DSH-better-sidebar",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "omdsh-dev/DSH-better-sidebar",
+  "now": "omdsh-dev/DSH-better-sidebar",
+  "stars": 1858,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/ccch1mneyyy/dsh-TUI",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "ccch1mneyyy/dsh-TUI",
+  "now": "ccch1mneyyy/dsh-TUI",
+  "stars": 1746,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/omdsh-dev/dsh-at-file",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "omdsh-dev/dsh-at-file",
+  "now": "omdsh-dev/dsh-at-file",
+  "stars": 311,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.6.2.tar.gz",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "omdsh-dev/dsh-at-file",
+  "now": "omdsh-dev/dsh-at-file",
+  "stars": 311,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/ccch1mneyyy",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "anywhere-labs/deepseek-harness-desktop",
+  "now": "anywhere-labs/deepseek-harness-desktop",
+  "stars": 10894,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/omdsh-dev",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/sandbaseai",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/anywhere-labs",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/omdsh-dev/dsh-genui.git",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "omdsh-dev/dsh-genui",
+  "now": "omdsh-dev/dsh-genui",
+  "stars": 165,
+  "pushed": "2026-08-16",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/omdsh-dev/dsh-genui",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "omdsh-dev/dsh-genui",
+  "now": "omdsh-dev/dsh-genui",
+  "stars": 165,
+  "pushed": "2026-08-16",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/Nagi-ovo/dsh-visualize",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "Nagi-ovo/dsh-visualize",
+  "now": "Nagi-ovo/dsh-visualize",
+  "stars": 165,
+  "pushed": "2026-08-15",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/anywhere-labs/deepseek-harness-desktop/releases/latest",
+  "kind": "web",
+  "status": "ok",
+  "final": "https://github.com/anywhere-labs/deepseek-harness-desktop/releases/tag/v2.0.0"
+ },
+ {
+  "u": "https://github.com/dsh-market/dsh-market",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "dsh-market/dsh-market",
+  "now": "dsh-market/dsh-market",
+  "stars": 767,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/dsh-market",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "awesome-dsh-plugin/awesome-dsh-plugin",
+  "now": "awesome-dsh-plugin/awesome-dsh-plugin",
+  "stars": 7016,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/linhay/harmony-next.skills",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "linhay/harmony-next.skills",
+  "now": "linhay/harmony-next.skills",
+  "stars": 325,
+  "pushed": "2026-08-15",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/awesome-dsh-plugin",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/Nagi-ovo",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://crhq.ai",
+  "kind": "web",
+  "status": "ok",
+  "final": "https://crhq.ai/"
+ },
+ {
+  "u": "https://github.com/linhay",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/EthanYoQ/AI-Novel-Writer",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "EthanYoQ/AI-Novel-Writer",
+  "now": "EthanYoQ/AI-Novel-Writer",
+  "stars": 373,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/zhaoolee/notes",
+  "kind": "repo",
+  "status": "ok",
+  "slug": "zhaoolee/notes",
+  "now": "zhaoolee/notes",
+  "stars": 144,
+  "pushed": "2026-08-17",
+  "archived": false
+ },
+ {
+  "u": "https://github.com/EthanYoQ",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/therohitdas",
+  "kind": "web",
+  "status": "ok"
+ },
+ {
+  "u": "https://github.com/zhaoolee",
+  "kind": "web",
+  "status": "ok"
+ }
+]
