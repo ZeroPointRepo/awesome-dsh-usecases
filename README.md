@@ -7,12 +7,14 @@
   <img src="https://img.shields.io/badge/use%20cases-23-2563eb" alt="Use case count" />
   <img src="https://img.shields.io/github/last-commit/ZeroPointRepo/awesome-dsh-usecases" alt="Last commit" />
   <img src="https://img.shields.io/badge/dsh-developer%20preview-a855f7" alt="DSH status" />
+  <img src="https://img.shields.io/badge/status-unofficial-lightgrey" alt="Unofficial, not affiliated with DeepSeek" />
   <img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License" />
 </p>
 
 # Awesome DeepSeek Harness Use Cases
 
-**DeepSeek Harness use cases: 23 things you can actually do with `dsh`, each with a real install command.**
+**An unofficial, community-maintained use-case map for DeepSeek Harness: 23 things you can actually do
+with dsh, each with a real install command. Not affiliated with or endorsed by DeepSeek.**
 
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) is DeepSeek AI's open-source
 agent harness, built on an architecture where *everything is a plugin*. It shipped on 2026-08-13 and the
@@ -22,9 +24,10 @@ This list is not a directory of plugins. It is a directory of **use cases**: "I 
 things between sessions", "I want it to read a screenshot", "I want to see what is actually in my context
 window". Each one names the project that solves it and the command that installs it.
 
-**Every entry was re-verified on 2026-08-17.** Each one has a real, published `dsh plugin add` command that we
-read out of the project's own documentation. Plugins tagged for discovery but with no working install path
-into `dsh` were left out, however popular they were. See [What we left out](#what-we-left-out).
+**Verification: all 23 verified working as of 2026-08-17.** Each one has a real, published `dsh plugin add`
+command that we read out of the project's own documentation on that date. Plugins tagged for discovery but
+with no working install path into `dsh` were left out, however popular they were.
+See [What we left out](#what-we-left-out).
 
 ---
 
@@ -352,6 +355,8 @@ and done well.
   <sub>
     Maintained by <a href="https://github.com/therohitdas">therohitdas</a>.
     Counts and install commands verified against source at 2026-08-17 09:53 UTC.
+    <br />
+    This is an unofficial, community-maintained list. It is not affiliated with or endorsed by DeepSeek.
     <br />
     Built with <a href="https://crhq.ai">crhq.ai</a>.
   </sub>
