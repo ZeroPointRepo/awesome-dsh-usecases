@@ -22,7 +22,7 @@ This list is not a directory of plugins. It is a directory of **use cases**: "I 
 things between sessions", "I want it to read a screenshot", "I want to see what is actually in my context
 window". Each one names the project that solves it and the command that installs it.
 
-**Every entry was verified on 2026-08-17.** Each one has a real, published `dsh plugin add` command that we
+**Every entry was re-verified on 2026-08-17.** Each one has a real, published `dsh plugin add` command that we
 read out of the project's own documentation. Plugins tagged for discovery but with no working install path
 into `dsh` were left out, however popular they were. See [What we left out](#what-we-left-out).
 
@@ -85,8 +85,16 @@ surprising amount of agent behaviour.
   install command
 ```
 
-Star counts and licenses were pulled from the GitHub API on **2026-08-17**. They are shown so you can weigh
-an entry without leaving the page, and they will drift; the link is always authoritative.
+Star counts and licenses were pulled from the GitHub API at **2026-08-17 09:53 UTC**, and every install command was
+re-read from its own project's documentation at the same time. They are shown so you can weigh an entry
+without leaving the page. This ecosystem is days old and moves by the hour, so treat the numbers as a
+snapshot: the link is always authoritative.
+
+Two entries pin a version ([modlens](#give-a-text-only-model-eyes) and
+[archify](#understand-an-unfamiliar-codebase)) because those projects pin them in their own docs. Both pins
+were checked against the npm registry at the time above and are still the current release. This one is
+checked by hand every pass, because a superseded pin still resolves and still installs: it is invisible to
+a link checker, and invisible to an archive checker too.
 
 ---
 
@@ -119,7 +127,7 @@ invisible to them by default. These add a vision path, and it is the most active
 - **Read images through a native tool call** with
   [modlens](https://github.com/liustack/modlens) by [liustack](https://github.com/liustack). Exposes a
   `modlens_read_image` tool, so the model requests an image the same way it requests any other tool. The
-  version is pinned rather than `@latest` on purpose, which their docs explain. 2,648★, MIT.
+  version is pinned rather than `@latest` on purpose, which their docs explain. 2,655★, MIT.
   ```sh
   npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.18.1
   ```
@@ -155,7 +163,7 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Let memory reorganize itself in the background** with
   [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) by
   [csyangwen](https://github.com/csyangwen). Cross-session memory on five tracks with git-branch awareness,
-  plus a background pass that consolidates rather than only appending. 142★, MIT.
+  plus a background pass that consolidates rather than only appending. 143★, MIT.
   ```sh
   dsh plugin --profile web add github:csyangwen/dsh-memory-evolve
   ```
@@ -165,7 +173,7 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Generate architecture and sequence diagrams you can check** with
   [archify](https://github.com/tt-a1i/archify) by [tt-a1i](https://github.com/tt-a1i). Architecture,
   workflow, sequence, data-flow and lifecycle diagrams, generated with verification rather than from
-  the model's impression of the repo. Community integration, not an official DeepSeek product. 13,702★, MIT.
+  the model's impression of the repo. Community integration, not an official DeepSeek product. 13,711★, MIT.
   ```sh
   dsh plugin --profile web add @tt-a1i/archify-dsh@0.1.0
   ```
@@ -205,7 +213,7 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Add a task board, a git graph, and a working right panel** with
   [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) by
   [zhu1090093659](https://github.com/zhu1090093659). The largest UI collection in the ecosystem: task board,
-  git graph, right side panel, mobile pairing for driving a running workspace from your phone. 3,892★, Apache-2.0.
+  git graph, right side panel, mobile pairing for driving a running workspace from your phone. 3,910★, Apache-2.0.
   ```sh
   dsh plugin --profile web add @linxin666/dsh-web-ui-all
   ```
@@ -213,14 +221,14 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Put a file editor, terminal, git view and subagent pages in the sidebar** with
   [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) by
   [omdsh-dev](https://github.com/omdsh-dev). An open sidebar base that third-party plugins can register new
-  pages into, so the sidebar becomes an extension point rather than a fixed menu. 1,857★, MIT.
+  pages into, so the sidebar becomes an extension point rather than a fixed menu. 1,859★, MIT.
   ```sh
   dsh plugin --profile web add dsh-better-sidebar@latest
   ```
 
 - **Reference a file by typing `@`** with
   [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) by [omdsh-dev](https://github.com/omdsh-dev).
-  Workspace file search and `@file` mentions, so you stop pasting paths by hand. 311★, MIT.
+  Workspace file search and `@file` mentions, so you stop pasting paths by hand. 315★, MIT.
   ```sh
   dsh plugin --profile web add https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.6.2.tar.gz
   ```
@@ -228,7 +236,7 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Work in the terminal instead of a browser** with
   [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) by [ccch1mneyyy](https://github.com/ccch1mneyyy).
   A terminal interface with a live status bar, streaming reasoning, double-Escape rollback, and context
-  progress with tokens per second. 1,746★, MIT.
+  progress with tokens per second. 1,748★, MIT.
   ```sh
   npm install -g @deepseek-ai/dsh @deepseek-harness-tui/dsh-tui
   ```
@@ -236,14 +244,14 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Run it as a desktop app** with
   [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) by
   [anywhere-labs](https://github.com/anywhere-labs). A desktop shell for the DSH plugin ecosystem, with
-  signed installers and published SHA-256 digests on each release. 10,886★, MIT.
+  signed installers and published SHA-256 digests on each release. 10,915★, MIT.
   Download from [Releases](https://github.com/anywhere-labs/deepseek-harness-desktop/releases/latest).
 
 ## Get richer output than plain text
 
 - **Get interactive UI components inline in the conversation** with
   [dsh-genui](https://github.com/omdsh-dev/dsh-genui) by [omdsh-dev](https://github.com/omdsh-dev).
-  The model renders real interactive components in the chat instead of describing them. 165★, MIT.
+  The model renders real interactive components in the chat instead of describing them. 168★, MIT.
   ```sh
   dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-genui.git
   ```
@@ -251,7 +259,7 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Turn an answer into an interactive visualization** with
   [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) by [Nagi-ovo](https://github.com/Nagi-ovo).
   Renders model-generated interactive cards inside the conversation, useful when the answer is a shape
-  rather than a sentence. 165★, MIT.
+  rather than a sentence. 164★, MIT.
   ```sh
   dsh plugin --profile web add github:Nagi-ovo/dsh-visualize
   ```
@@ -261,7 +269,7 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Browse and install plugins without leaving the app** with
   [dsh-market](https://github.com/dsh-market/dsh-market) by [dsh-market](https://github.com/dsh-market).
   A plugin market inside DSH: browse, search and one-click install across 800+ plugins. After installing,
-  restart `dsh web` and open Settings, then Plugin Market. 764★, MIT.
+  restart `dsh web` and open Settings, then Plugin Market. 768★, MIT.
   ```sh
   dsh plugin --profile web add dshmarket
   ```
@@ -269,7 +277,7 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 - **Read a curated index of the plugin ecosystem** with
   [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) by the
   [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin) maintainers. The largest curated plugin list,
-  bilingual. It answers "which plugin", where this list answers "which use case". 7,008★.
+  bilingual. It answers "which plugin", where this list answers "which use case". 7,046★.
   Browse at [the repo](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin).
 
 ## Domain-specific work
@@ -343,7 +351,7 @@ and done well.
 <p align="center">
   <sub>
     Maintained by <a href="https://github.com/therohitdas">therohitdas</a>.
-    Counts verified against the GitHub API on 2026-08-17.
+    Counts and install commands verified against source at 2026-08-17 09:53 UTC.
     <br />
     Built with <a href="https://crhq.ai">crhq.ai</a>.
   </sub>
