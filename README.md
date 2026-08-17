@@ -103,7 +103,9 @@ a link checker, and invisible to an archive checker too.
 
 ## See and control your context
 
-The single most useful thing to understand about an agent is what it is actually reading.
+The single most useful thing to understand about an agent is what it is actually reading. These give you
+**DSH context window** visibility and control: what is in the window now, how it evolved across turns, and
+what **compaction** pruned away.
 
 - **See what is in your context window, and what got compacted away** with
   [dsh-context](https://github.com/bowenliang123/dsh-context) by
@@ -116,7 +118,8 @@ The single most useful thing to understand about an agent is what it is actually
 ## Give a text-only model eyes
 
 The DeepSeek models behind `dsh` are text-only. A screenshot, a design mock, or a photo of a whiteboard is
-invisible to them by default. These add a vision path, and it is the most active problem area in the ecosystem.
+invisible to them by default. These are the **DSH vision** plugins: **image input**, **screenshot OCR**, and
+native image tool calls. It is the most active problem area in the ecosystem.
 
 - **Paste a screenshot and ask questions about it** with
   [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) by
@@ -145,8 +148,9 @@ invisible to them by default. These add a vision path, and it is the most active
 
 ## Remember things between sessions
 
-Out of the box each session starts cold. These three take different approaches, so the right one depends on
-whether you want a graph, a timeline, or something that reorganizes itself.
+Out of the box each session starts cold. These are the **DSH memory** plugins, **cross-session** and
+**long-term memory**, and the three take different approaches, so the right one depends on whether you want a
+graph, a timeline, or something that reorganizes itself.
 
 - **Give the agent supervised long-term memory** with
   [mnemon](https://github.com/mnemon-dev/mnemon) by [mnemon-dev](https://github.com/mnemon-dev).
@@ -173,6 +177,9 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 
 ## Understand an unfamiliar codebase
 
+For **DSH codebase analysis** (reading a repo you did not write), the useful move is generated
+**architecture and sequence diagrams** you can verify against the code rather than trust.
+
 - **Generate architecture and sequence diagrams you can check** with
   [archify](https://github.com/tt-a1i/archify) by [tt-a1i](https://github.com/tt-a1i). Architecture,
   workflow, sequence, data-flow and lifecycle diagrams, generated with verification rather than from
@@ -182,6 +189,9 @@ whether you want a graph, a timeline, or something that reorganizes itself.
   ```
 
 ## Coordinate more than one agent
+
+**DSH multi-agent orchestration** comes in two shapes: splitting work across a **team of agents** with
+defined roles inside one harness, or staying in the loop while they run.
 
 - **Run a team of agents with defined roles** with
   [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) by
@@ -201,6 +211,9 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 
 ## Keep a long-running agent under control
 
+When a DSH agent runs longer than you want to watch it, the controls that matter are **sandboxed sessions**,
+an **audit trail**, and a **managed agent runtime** you can inspect afterwards.
+
 - **Run agents in sandboxed, audited sessions** with
   [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) by
   [sandbaseai](https://github.com/sandbaseai). A managed-agent runtime with sandboxed sessions, an audit
@@ -211,7 +224,8 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 
 ## Reshape the interface
 
-`dsh web` is deliberately plain. Most people change it within a day.
+`dsh web` is deliberately plain. Most people change it within a day. These are the **DSH UI** plugins:
+**web UI** collections, an extensible **sidebar**, a terminal **TUI**, and a **desktop app**.
 
 - **Add a task board, a git graph, and a working right panel** with
   [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) by
@@ -252,6 +266,9 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 
 ## Get richer output than plain text
 
+For **DSH rich output** (**interactive UI** rendered inline instead of described), these put real components
+and **visualizations** inside the conversation.
+
 - **Get interactive UI components inline in the conversation** with
   [dsh-genui](https://github.com/omdsh-dev/dsh-genui) by [omdsh-dev](https://github.com/omdsh-dev).
   The model renders real interactive components in the chat instead of describing them. 168★, MIT.
@@ -269,6 +286,9 @@ whether you want a graph, a timeline, or something that reorganizes itself.
 
 ## Find and install plugins
 
+If you already know what you want to build, you want a plugin index rather than this list. These are the best
+ones: they answer *which plugin*, where this list answers *which use case*.
+
 - **Browse and install plugins without leaving the app** with
   [dsh-market](https://github.com/dsh-market/dsh-market) by [dsh-market](https://github.com/dsh-market).
   A plugin market inside DSH: browse, search and one-click install across 800+ plugins. After installing,
@@ -284,6 +304,9 @@ whether you want a graph, a timeline, or something that reorganizes itself.
   Browse at [the repo](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin).
 
 ## Domain-specific work
+
+Not everything in DSH is general-purpose: these cover **HarmonyOS NEXT development**, **long-form fiction
+writing**, and **self-hosted notes** the agent can read and write.
 
 - **Get expert guidance for HarmonyOS NEXT development** with
   [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by
