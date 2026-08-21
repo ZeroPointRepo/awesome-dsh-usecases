@@ -298,10 +298,17 @@ ones: they answer *which plugin*, where this list answers *which use case*.
   dsh plugin --profile web add dshmarket
   ```
 
-- **Read a curated index of the plugin ecosystem** with
+- **Pick a plugin by the problem it solves, every command re-verified weekly** with
+  [awesome-dsh-plugins](https://github.com/ZeroPointRepo/awesome-dsh-plugins) by
+  [ZeroPointRepo](https://github.com/ZeroPointRepo). Our own sister list: the same install-command
+  verification bar as this repo, organized by job to be done instead of an alphabet.
+  Browse at [the repo](https://github.com/ZeroPointRepo/awesome-dsh-plugins).
+
+- **Read the largest curated index of the plugin ecosystem** with
   [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) by the
-  [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin) maintainers. The largest curated plugin list,
-  bilingual. It answers "which plugin", where this list answers "which use case". 7,046★.
+  [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin) maintainers. Bilingual, 21 categories,
+  updated constantly. Answers "which plugin", not "which use case", and does not verify install
+  commands. 10,800★+.
   Browse at [the repo](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin).
 
 ## Domain-specific work
@@ -377,7 +384,12 @@ and done well.
 
 ## Related lists
 
-Three sister lists, same standard, same maintainer. Each one covers a different agent ecosystem.
+- [awesome-dsh-plugins](https://github.com/ZeroPointRepo/awesome-dsh-plugins): same ecosystem,
+  different axis. That list answers "which plugin should I install", organized by what each plugin
+  does, every entry re-verified weekly. This one answers "what can I actually do with dsh". Start
+  here if you do not know what you want yet, start there if you do.
+
+Three more sister lists, same standard, same maintainer, each covering a different agent ecosystem:
 
 - [awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills): skills, plugins, agent profiles and memory providers for Hermes Agent.
 - [awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins): plugins on the open Agent Plugins standard, every entry checked for a real `plugin.json`.
