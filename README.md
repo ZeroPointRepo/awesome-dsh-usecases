@@ -35,19 +35,20 @@ See [What we left out](#what-we-left-out).
 
 - [Start here](#start-here)
 - [How to read an entry](#how-to-read-an-entry)
-- [See and control your context](#see-and-control-your-context)
-- [Give a text-only model eyes](#give-a-text-only-model-eyes)
-- [Remember things between sessions](#remember-things-between-sessions)
+- [See and control your context window](#see-and-control-your-context-window)
+- [Give a text-only model eyes: DSH vision plugins](#give-a-text-only-model-eyes-dsh-vision-plugins)
+- [Remember things between sessions: DSH memory plugins](#remember-things-between-sessions-dsh-memory-plugins)
 - [Understand an unfamiliar codebase](#understand-an-unfamiliar-codebase)
-- [Coordinate more than one agent](#coordinate-more-than-one-agent)
+- [Coordinate more than one agent: DSH multi-agent setups](#coordinate-more-than-one-agent-dsh-multi-agent-setups)
 - [Keep a long-running agent under control](#keep-a-long-running-agent-under-control)
-- [Reshape the interface](#reshape-the-interface)
+- [Reshape the interface: DSH web UI, sidebar and TUI](#reshape-the-interface-dsh-web-ui-sidebar-and-tui)
 - [Get richer output than plain text](#get-richer-output-than-plain-text)
-- [Find and install plugins](#find-and-install-plugins)
+- [Find and install dsh plugins](#find-and-install-dsh-plugins)
 - [Domain-specific work](#domain-specific-work)
 - [What we left out](#what-we-left-out)
 - [Security notice](#security-notice)
 - [Contributing](#contributing)
+- [Related lists](#related-lists)
 
 ---
 
@@ -73,7 +74,7 @@ The `--profile` flag picks which composition the plugin is added to. `web` is th
 `dsh web`, and it is the right answer for most of this list.
 
 **3. Pick the use case that annoys you most today.** If you are not sure, start with
-[dsh-context](#see-and-control-your-context): seeing what is actually in your context window explains a
+[dsh-context](#see-and-control-your-context-window): seeing what is actually in your context window explains a
 surprising amount of agent behaviour.
 
 > `dsh` is in **developer preview** and states plainly that there will be compatibility-breaking changes.
@@ -93,7 +94,7 @@ re-read from its own project's documentation at the same time. They are shown so
 without leaving the page. This ecosystem is days old and moves by the hour, so treat the numbers as a
 snapshot: the link is always authoritative.
 
-Two entries pin a version ([modlens](#give-a-text-only-model-eyes) and
+Two entries pin a version ([modlens](#give-a-text-only-model-eyes-dsh-vision-plugins) and
 [archify](#understand-an-unfamiliar-codebase)) because those projects pin them in their own docs. Both pins
 were checked against the npm registry at the time above and are still the current release. This one is
 checked by hand every pass, because a superseded pin still resolves and still installs: it is invisible to
@@ -101,7 +102,7 @@ a link checker, and invisible to an archive checker too.
 
 ---
 
-## See and control your context
+## See and control your context window
 
 The single most useful thing to understand about an agent is what it is actually reading. These give you
 **DSH context window** visibility and control: what is in the window now, how it evolved across turns, and
@@ -115,7 +116,7 @@ what **compaction** pruned away.
   dsh plugin --profile web add dsh-context
   ```
 
-## Give a text-only model eyes
+## Give a text-only model eyes: DSH vision plugins
 
 The DeepSeek models behind `dsh` are text-only. A screenshot, a design mock, or a photo of a whiteboard is
 invisible to them by default. These are the **DSH vision** plugins: **image input**, **screenshot OCR**, and
@@ -146,7 +147,7 @@ native image tool calls. It is the most active problem area in the ecosystem.
   npx @deepseek-ai/dsh plugin --profile web add dsh-vision-router
   ```
 
-## Remember things between sessions
+## Remember things between sessions: DSH memory plugins
 
 Out of the box each session starts cold. These are the **DSH memory** plugins, **cross-session** and
 **long-term memory**, and the three take different approaches, so the right one depends on whether you want a
@@ -188,7 +189,7 @@ For **DSH codebase analysis** (reading a repo you did not write), the useful mov
   dsh plugin --profile web add @tt-a1i/archify-dsh@0.1.0
   ```
 
-## Coordinate more than one agent
+## Coordinate more than one agent: DSH multi-agent setups
 
 **DSH multi-agent orchestration** comes in two shapes: splitting work across a **team of agents** with
 defined roles inside one harness, or staying in the loop while they run.
@@ -222,7 +223,7 @@ an **audit trail**, and a **managed agent runtime** you can inspect afterwards.
   dsh plugin --profile web add managed-agents
   ```
 
-## Reshape the interface
+## Reshape the interface: DSH web UI, sidebar and TUI
 
 `dsh web` is deliberately plain. Most people change it within a day. These are the **DSH UI** plugins:
 **web UI** collections, an extensible **sidebar**, a terminal **TUI**, and a **desktop app**.
@@ -284,7 +285,7 @@ and **visualizations** inside the conversation.
   dsh plugin --profile web add github:Nagi-ovo/dsh-visualize
   ```
 
-## Find and install plugins
+## Find and install dsh plugins
 
 If you already know what you want to build, you want a plugin index rather than this list. These are the best
 ones: they answer *which plugin*, where this list answers *which use case*.
@@ -371,6 +372,16 @@ four acceptance rules.
 The fastest way to get merged is to name the use case in plain language. "Sync notes into the agent" is an
 entry. "A plugin for notes" is a plugin list, which is [already covered elsewhere](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 and done well.
+
+---
+
+## Related lists
+
+Three sister lists, same standard, same maintainer. Each one covers a different agent ecosystem.
+
+- [awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills): skills, plugins, agent profiles and memory providers for Hermes Agent.
+- [awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins): plugins on the open Agent Plugins standard, every entry checked for a real `plugin.json`.
+- [awesome-grok-bot](https://github.com/ZeroPointRepo/awesome-grok-bot): skills, plugins and MCP wiring for xAI and Cursor's Grok Bot.
 
 ---
 
